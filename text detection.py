@@ -1,7 +1,7 @@
 import cv2
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\kp473\OneDrive\Desktop\RMI\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\--FILE PATH---\tesseract.exe'
 
 img=cv2.imread(r"C:\Users\kp473\OneDrive\Pictures\Screenshots\Screenshot (19).png",1)
 img=cv2.resize(img,(680,480))
