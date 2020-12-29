@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import math as m
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\kp473\OneDrive\Desktop\RMI\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\----FILE PATH-----\tesseract.exe'
 
 
 while True:
